@@ -14,7 +14,8 @@ mysql> show databases;
 +--------------------+
 9 rows in set (0.00 sec)
 
-
+mysql> use ecommerce;
+Database changed
 
 mysql> show tables;
 +---------------------+
