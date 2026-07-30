@@ -15,7 +15,7 @@ mysql> show databases;
 
 mysql> create database ecommerce;
 Query OK, 1 row affected (0.02 sec)
-mysql> show databases;
+
 mysql> show databases;
 +--------------------+
 | Database           |
