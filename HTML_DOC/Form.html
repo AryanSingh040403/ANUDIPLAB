@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Registration Form</title>
+    <link rel='stylesheet' href='main.css'>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="">
+        <label>Student Name</label>
+        <input type="text" name="studentname" placeholder="Student Name" required><br><br>
+
+        <label>Gender:</label><br><br>
+        <input type="radio" name="gender" value="male" required> Male<br>
+        <input type="radio" name="gender" value="female" required> Female<br>
+        <input type="radio" name="gender" value="other" required> Other<br><br>
+
+        <label>Date of Birth:</label>
+        <input type ="date" name="dob" required><br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="Enter your email" required><br><br>
+        
+        <label>Phone Number:</label>
+        <input type="tel" name="phone" placeholder="Enter your phone number" required><br><br>
+
+        <label>Address:</label>
+        <textarea name="address" placeholder="Enter your address" required></textarea><br><
+
+        <label>Course:</label>
+        <select name="course" required>
+            <option value="">Select a course</option>
+            <option value="B.E">B.E</option>
+            <option value="B.Tech">B.Tech</option>
+            <option value="BSC">BSC</option>
+        </select><br><br>
+
+        <label>Select Subject:</label><br>
+        <input type="checkbox" name="subject" value="Python"> Python
+        <input type="checkbox" name="subject" value="SQL"> SQL
+        <input type="checkbox" name="subject" value="AI"> AI
+        <input type="checkbox" name="subject" value="DBMS"> DBMS
+
+        
+
+    
+    </form>
+</body>
+</html>
