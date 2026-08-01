@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Create Account</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background:#fff;
+        }
+
+        .logo{
+            text-align:center;
+            margin-top:20px;
+            margin-bottom:15px;
+        }
+
+        .logo h1{
+            font-size:38px;
+            font-weight:bold;
+            color:#111;
+        }
+
+        .logo span{
+            color:#f3a847;
+        }
+
+        .container{
+            width:350px;
+            margin:auto;
+            border:1px solid #ddd;
+            border-radius:8px;
+            padding:20px;
+        }
+
+        h2{
+            font-weight:400;
+            margin-bottom:20px;
+        }
+
+        label{
+            display:block;
+            font-size:14px;
+            font-weight:bold;
+            margin-bottom:5px;
+            margin-top:10px;
+        }
+
+        input{
+            width:100%;
+            height:35px;
+            border:1px solid #a6a6a6;
+            border-radius:3px;
+            padding-left:10px;
+            font-size:14px;
+        }
+
+        .hint{
+            font-size:12px;
+            color:#555;
+            margin-top:4px;
+        }
+
+        button{
+            width:100%;
+            height:35px;
+            margin-top:18px;
+            background:#FFD814;
+            border:1px solid #FCD200;
+            border-radius:20px;
+            cursor:pointer;
+            font-size:14px;
+        }
+
+        button:hover{
+            background:#f7ca00;
+        }
+
+        .terms{
+            margin-top:18px;
+            font-size:12px;
+            color:#555;
+            line-height:1.5;
+        }
+
+        .terms a{
+            text-decoration:none;
+            color:#0066c0;
+        }
+
+        .bottom{
+            margin-top:25px;
+            font-size:13px;
+        }
+
+        .bottom a{
+            text-decoration:none;
+            color:#0066c0;
+        }
+
+        hr{
+            margin-top:30px;
+            border:none;
+            border-top:1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="logo">
+        <h1>amazon<span>.</span></h1>
+    </div>
+
+    <div class="container">
+
+        <h2>Create account</h2>
+
+        <form>
+
+            <label>Your name</label>
+            <input type="text" placeholder="First and last name">
+
+            <label>Mobile number or email</label>
+            <input type="text">
+
+            <label>Password</label>
+            <input type="password" placeholder="At least 6 characters">
+
+            <p class="hint">
+                &#8505; Passwords must be at least 6 characters.
+            </p>
+
+            <label>Re-enter password</label>
+            <input type="password">
+
+            <button type="submit">Continue</button>
+
+        </form>
+
+        <div class="terms">
+            By creating an account, you agree to Amazon's
+            <a href="#">Conditions of Use</a> and
+            <a href="#">Privacy Notice</a>.
+        </div>
+
+        <hr>
+
+        <div class="bottom">
+            Already have an account?
+            <a href="#">Sign in ></a>
+            <br><br>
+
+            Buying for work?
+            <a href="#">Create a free business account ></a>
+        </div>
+
+    </div>
+
+</body>
+</html>
